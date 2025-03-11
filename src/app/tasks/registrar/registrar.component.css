@@ -1,0 +1,46 @@
+.mat-toolbar {
+  background-color: #4a4a4a;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card {
+  width: 600px;
+  height: 400px;
+  border-radius: 20px;
+  background-color: #4a4a4a;
+}
+
+.card-header {
+  background-color: #6c6c6c; 
+  color: white; 
+  padding: 16px 20px; 
+  margin-bottom: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  text-align: center; 
+}
+
+.form mat-form-field {
+  display: block;
+  
+}
+
+.buttons-container {
+  gap: 12px;
+}
+
+.button:nth-child(1) {
+  background-color: #a4a4a4;
+}
+
+.button:nth-child(2) {
+  background-color: #e32e1f;
+}
+
