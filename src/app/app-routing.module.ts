@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {path: ' ', pathMatch: 'full', redirectTo: 'tasks/registrar'},
-  {path: 'tasks',loadChildren: () => import('./tasks/tasks.module').then(m => m.TasksModule)}
+  {path: 'tasks',loadChildren: () => import('./tasks/tasks.module').then(m => m.TasksModule)},
 ];
 
 @NgModule({
